@@ -29,12 +29,12 @@
 #### 数据封装
 
         //第一个Activity发送数据
-        Intent intent = new Intent();  
+        Intent intent = new Intent(OneActivity，TwoActivity);  
         Bundle bundle = new Bundle();  
         bundle.putInt("Time", 5);  
         bundle.putInt("Counts", 16);  
         intent.putExtras(bundle);  
-
+        startActivity(intent)
 #### 数据拆包
         //第二个Activity接收数据
         Bundle b = getIntent().getExtras();  
