@@ -24,7 +24,7 @@
     
     Broadcasts  sendBroadcast()  sendOrderedBroadcast()  sendStickyBroadcast()  
     
-## Activity 之间 Intent 传值  Bundle封装数据
+## Activity 之间 Intent 传值  习惯使用Bundle封装数据
 
 #### 数据封装
 
