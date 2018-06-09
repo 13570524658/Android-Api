@@ -36,7 +36,7 @@
         intent.putExtras(bundle);  
 
 #### 数据拆包
-        //第二个接收数据
+        //第二个Activity接收数据
         Bundle b = getIntent().getExtras();  
         int time = b.getInt("Time");  
         int counts = b.getInt("Counts");  
