@@ -37,9 +37,9 @@
         startActivity(intent)
 #### 数据拆包
         //第二个Activity接收数据
-        Bundle b = getIntent().getExtras();  
-        int time = b.getInt("Time");  
-        int counts = b.getInt("Counts");  
+        Bundle bundle = getIntent().getExtras();  
+        int time = bundle.getInt("Time");  
+        int counts = bundle.getInt("Counts");  
 
 
 
