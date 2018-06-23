@@ -16,7 +16,7 @@
 
 ## putExtras 和 putExtra 的区别
 
-        putExtras必须使用Bundle
+        putExtras使用Bundle
 
 # 当前的Activity 向 下一个Activity 传数据
 
