@@ -18,6 +18,9 @@
 
         putExtras必须使用Bundle
 
+# 第一个Activity 向 下一个Activity 传数据
+
+
 #### 数据封装
 
         //第一个Activity发送数据
