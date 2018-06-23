@@ -93,4 +93,9 @@
         }
     }
 
-
+# 使用Intent的Action属性实现隐式跳转
+    
+    //跳转到浏览器打开网页
+    Uri uri = Uri.parse("http://www.baidu.com");
+    Intent intent  = new Intent(Intent.ACTION_VIEW,uri);
+    startActivity(intent);
