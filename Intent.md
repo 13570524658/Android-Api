@@ -99,3 +99,8 @@
     Uri uri = Uri.parse("http://www.baidu.com");
     Intent intent  = new Intent(Intent.ACTION_VIEW,uri);
     startActivity(intent);
+    
+    //拨打电话
+    //<uses-permission android:name="android.permission.CALL_PHONE" />
+    Uri dialUri = Uri.parse("tel:10086"); 
+    Intent intent = new Intent(Intent.ACTION_DIAL, dialUri); 
