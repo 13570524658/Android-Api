@@ -1,20 +1,20 @@
-## Intent是什么？
+#### Intent是什么？
     
     Intent的中文意思是“意图，目的”的意思，可以理解为不同目标组件之间通信的“媒介”或者“信使”。
     
-## Intent由什么组成？
+#### Intent由什么组成？
 
     Intent在由以下几个部分组成：
     
     动作（action），数据（data），分类（Category），类型（Type），组件（Component），和扩展信息（Extra）。
 
     
-## Activity 之间 使用Intent的Extral属性传递数据
+#### Activity 之间 使用Intent的Extral属性传递数据
        养成习惯使用Bundle封装数据
        Intent在界面之间的传输，自身是可以携带数据传输的，但是其携带数据传输的大小，是有一定限制的！
        所以传输比较大的数据时候，可以通过Bundle去传输！ 
 
-## putExtras 和 putExtra 的区别
+#### putExtras 和 putExtra 的区别
 
         putExtras使用Bundle
 
