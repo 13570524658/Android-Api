@@ -29,7 +29,7 @@
 #### 数据封装
 
         //第一个Activity发送数据
-        Intent intent = new Intent(OneActivity，TwoActivity);  
+        Intent intent = new Intent(OneActivity.this，TwoActivity);  
         Bundle bundle = new Bundle();  
         bundle.putInt("int", 1);  
         bundle.putString("String", 1);  
