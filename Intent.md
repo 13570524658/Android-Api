@@ -31,15 +31,15 @@
         //第一个Activity发送数据
         Intent intent = new Intent(OneActivity，TwoActivity);  
         Bundle bundle = new Bundle();  
-        bundle.putInt("Time", 5);  
-        bundle.putInt("Counts", 16);  
+        bundle.putInt("int", 1);  
+        bundle.putString("String", 1);  
         intent.putExtras(bundle);  
         startActivity(intent)
 #### 数据拆包
         //第二个Activity接收数据
         Bundle bundle = getIntent().getExtras();  
-        int time = bundle.getInt("Time");  
-        int counts = bundle.getInt("Counts");  
+        int ints = bundle.getInt("int");  
+        int Strings = bundle.getString("String");  
 
 
 
