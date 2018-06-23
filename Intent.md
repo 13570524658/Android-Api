@@ -105,3 +105,8 @@
     Uri dialUri = Uri.parse("tel:10086"); 
     Intent intent = new Intent(Intent.ACTION_DIAL, dialUri);
     startActivity(intent);
+    
+    //发送短信
+     Intent intent = new Intent(Intent.ACTION_SENDTO,Uri.parse("smsto:"+10086));
+     intent.putExtra("sms_body", "the sms text");
+     startActivity(intent);
