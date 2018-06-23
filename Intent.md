@@ -40,9 +40,9 @@
         //第二个Activity接收数据
         Bundle bundle = getIntent().getExtras();
         //获取int类型数据
-        int ints = bundle.getInt("int");  
+        int ints = bundle.getInt("intType");  
         //获取String类型数据
-        int Strings = bundle.getString("String");
+        int Strings = bundle.getString("StringType");
         //获取List<Object>数据类型
         List<OrderDetail> mData=new ArrayList<>();
         DataBean dataBean= (DataBean) bundle.getSerializable("dataBean");
