@@ -14,7 +14,7 @@
        Intent在界面之间的传输，自身是可以携带数据传输的，但是其携带数据传输的大小，是有一定限制的！
        所以传输比较大的数据时候，可以通过Bundle去传输！ 
 
-## putExtras 和 putExtra
+## putExtras 和 putExtra 的区别
 
         putExtras必须使用Bundle
 
