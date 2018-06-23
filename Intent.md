@@ -49,7 +49,8 @@
         List<OrderDetail> data=dataBean.getData();
         mData.addAll(data);
 
-#### Object实体类
+#### Object实体类 必须实现Serializable
+
 public class DataBean implements Serializable {
     private List<OrderDetail> data;
 
@@ -61,7 +62,7 @@ public class DataBean implements Serializable {
         this.data = data;
     }
 }
-#### List实体类
+#### List实体类 必须实现Serializable
 
 public class OrderDetail implements Serializable{
     private String name;
