@@ -51,38 +51,39 @@
 
 #### Object实体类 必须实现Serializable
 
-public class DataBean implements Serializable {
-    private List<OrderDetail> data;
+    public class DataBean implements Serializable {
+        private List<OrderDetail> data;
 
-    public List<OrderDetail> getData() {
-        return data;
-    }
+        public List<OrderDetail> getData() {
+            return data;
+        }
 
-    public void setData(List<OrderDetail> data) {
-        this.data = data;
+        public void setData(List<OrderDetail> data) {
+            this.data = data;
+        }
     }
-}
+    
 #### List实体类 必须实现Serializable
 
-public class OrderDetail implements Serializable{
-    private String name;
-    private int age;
+    public class OrderDetail implements Serializable{
+        private String name;
+        private int age;
 
-    public String getName() {
-        return name;
-    }
+        public String getName() {
+            return name;
+        }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+        public void setName(String name) {
+            this.name = name;
+        }
 
-    public int getAge() {
-        return age;
-    }
+        public int getAge() {
+            return age;
+        }
 
-    public void setAge(int age) {
-        this.age = age;
+        public void setAge(int age) {
+            this.age = age;
+        }
     }
-}
 
 
