@@ -13,9 +13,12 @@
     
 #### 显式Intent与隐式Intent的区别
    
-    显式Intent：通过组件名指定启动的目标组件,比如startActivity(new Intent(A.this,B.class)); 每次启动的组件只有一个~
+    显式Intent：通过组件名指定启动的目标组件,比如startActivity(new Intent(A.this,B.class)); 
+    每次启动的组件只有一个~
      
-     隐式Intent:不指定组件名,而指定Intent的Action,Data,或Category,当我们启动组件时, 会去匹配AndroidManifest.xml相关组件的Intent-        filter,逐一匹配出满足属性的组件,当不止一个满足时, 会弹出一个让我们选择启动哪个的对话框~   
+    隐式Intent:不指定组件名,而指定Intent的Action,Data,或Category,
+    当我们启动组件时, 会去匹配AndroidManifest.xml相关组件的Intent- filter,
+    逐一匹配出满足属性的组件,当不止一个满足时, 会弹出一个让我们选择启动哪个的对话框~   
     
 #### Activity 之间 使用Intent的Extral属性传递数据
        养成习惯使用Bundle封装数据
