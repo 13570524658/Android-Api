@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(MainActivity.this,"btn点击事件",Toast.LENGTH_LONG).show();
         break;
         
-        case R.id.btn:
+        case R.id.btn1:
                 Toast.makeText(MainActivity.this,"btn1点击事件",Toast.LENGTH_LONG).show();
         break;
         
@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(MainActivity.this,"btn点击事件",Toast.LENGTH_LONG).show();
         break;
         
-        case R.id.btn:
+        case R.id.btn1:
                 Toast.makeText(MainActivity.this,"btn1点击事件",Toast.LENGTH_LONG).show();
         break;
         
