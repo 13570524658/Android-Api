@@ -2,12 +2,20 @@
     
     Intent的中文意思是“意图，目的”的意思，可以理解为不同目标组件之间通信的“媒介”或者“信使”。
     
+    Intent是Android通信的桥梁。
+   
+    
 #### Intent由什么组成？
 
     Intent在由以下几个部分组成：
     
     动作（action），数据（data），分类（Category），类型（Type），组件（Component），和扩展信息（Extra）。
-
+    
+#### 显式Intent与隐式Intent的区别
+   
+    显式Intent：通过组件名指定启动的目标组件,比如startActivity(new Intent(A.this,B.class)); 每次启动的组件只有一个~
+     
+     隐式Intent:不指定组件名,而指定Intent的Action,Data,或Category,当我们启动组件时, 会去匹配AndroidManifest.xml相关组件的Intent-        filter,逐一匹配出满足属性的组件,当不止一个满足时, 会弹出一个让我们选择启动哪个的对话框~   
     
 #### Activity 之间 使用Intent的Extral属性传递数据
        养成习惯使用Bundle封装数据
