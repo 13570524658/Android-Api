@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
      //定义构造方法
         private void myListener() {
         // TODO Auto-generated method stub
-        bt.setOnClickListener(new OnClickListener() {
+        btn.setOnClickListener(new OnClickListener() {
             
             @Override
             public void onClick(View v) {
