@@ -10,6 +10,7 @@
     Intent在由以下几个部分组成：
     
     动作（action），数据（data），分类（Category），类型（Type），组件（Component），和扩展信息（Extra）。
+     
     
 #### 显式Intent与隐式Intent的区别
    
@@ -18,7 +19,8 @@
      
     隐式Intent:不指定组件名,而指定Intent的Action,Data,或Category,
     当我们启动组件时, 会去匹配AndroidManifest.xml相关组件的Intent- filter,
-    逐一匹配出满足属性的组件,当不止一个满足时, 会弹出一个让我们选择启动哪个的对话框~   
+    逐一匹配出满足属性的组件,当不止一个满足时, 会弹出一个让我们选择启动哪个的对话框~ 
+    Android系统使用IntentFilter来寻找与隐式Intent相关的对象。
     
 #### Activity 之间 使用Intent的Extral属性传递数据
        养成习惯使用Bundle封装数据
